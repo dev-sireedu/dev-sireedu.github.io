@@ -17,7 +17,7 @@ toc: true
 ### Visualizar os Resultados dos Questionários
 ![resultados](/assets/images/resultquestionario.png)
 
-### Visualizar os Objetos Educacionais
+### Visualizar as Recomendações de Objetos Educacionais
 ![resultados](/assets/images/visualizaroe.png)
 
 ### Visualizar os Resultados das Turmas Cadastradas
