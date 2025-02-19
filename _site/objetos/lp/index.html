@@ -1,0 +1,816 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en-US" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Lógica de Programação - SIREEDU</title>
+<meta name="description" content="Sistema de Recomendação de Objetos Educacionais e de Metodologias de Ensino por meio de Meta-Análise e Aprendizagem Baseada em Evidências.">
+
+
+  <meta name="author" content="Michael Rose">
+  
+  <meta property="article:author" content="Michael Rose">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="SIREEDU">
+<meta property="og:title" content="Lógica de Programação">
+<meta property="og:url" content="http://localhost:4000/objetos/lp/">
+
+
+  <meta property="og:description" content="Sistema de Recomendação de Objetos Educacionais e de Metodologias de Ensino por meio de Meta-Análise e Aprendizagem Baseada em Evidências.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/site-logo.png">
+
+
+
+  <meta name="twitter:site" content="@mmistakes">
+  <meta name="twitter:title" content="Lógica de Programação">
+  <meta name="twitter:description" content="Sistema de Recomendação de Objetos Educacionais e de Metodologias de Ensino por meio de Meta-Análise e Aprendizagem Baseada em Evidências.">
+  <meta name="twitter:url" content="http://localhost:4000/objetos/lp/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:image" content="http://localhost:4000/assets/images/site-logo.png">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2025-02-19T01:49:24-05:00">
+
+
+
+  <meta property="article:modified_time" content="2025-01-26T07:48:05-05:00">
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/objetos/lp/">
+
+
+
+
+
+
+
+  <meta name="google-site-verification" content="UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" />
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="SIREEDU Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  window.enable_copy_code_button = true;
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          SIREEDU
+          <span class="site-subtitle"></span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/docs/motivacao/"
+                
+                
+              >Sobre o projeto</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/dev/resume/"
+                
+                
+              >Desenvolvimento</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/telas/login/"
+                
+                
+              >Telas</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/objetos/introducao/"
+                
+                
+              >Objetos Educacionais</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/resultados/overview/"
+                
+                
+              >Resultados</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/referencias/lista/"
+                
+                
+              >Referências Bibliográficas</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      <nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      
+      
+        <li>
+          
+            <span class="nav__sub-title">Objetos Educacionais</span>
+          
+
+          
+          <ul>
+            
+              <li><a href="/objetos/introducao/">Introdução</a></li>
+            
+              <li><a href="/objetos/im/">Inteligências Múltiplas</a></li>
+            
+              <li><a href="/objetos/estilos/">Estilos de Aprendizagem</a></li>
+            
+          </ul>
+          
+        </li>
+      
+        <li>
+          
+            <span class="nav__sub-title">Exemplos de Utilização</span>
+          
+
+          
+          <ul>
+            
+              <li><a href="/objetos/exemplosintro/">Introdução</a></li>
+            
+              <li><a href="/objetos/lp/" class="active">Lógica de Programação</a></li>
+            
+          </ul>
+          
+        </li>
+      
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Lógica de Programação">
+    <meta itemprop="description" content="">
+    
+    <meta itemprop="dateModified" content="2025-01-26T07:48:05-05:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="http://localhost:4000/objetos/lp/" itemprop="url">Lógica de Programação
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#quais-ferramentas-computacionais-foram-desenvolvidas-com-o-objetivo-de-auxiliar-o-ensino-aprendizagem-de-lógica-de-programação">Quais ferramentas computacionais foram desenvolvidas com o objetivo de auxiliar o ensino-aprendizagem de Lógica de Programação?</a></li></ul>
+            </nav>
+          </aside>
+        
+        <h3 id="quais-ferramentas-computacionais-foram-desenvolvidas-com-o-objetivo-de-auxiliar-o-ensino-aprendizagem-de-lógica-de-programação">Quais ferramentas computacionais foram desenvolvidas com o objetivo de auxiliar o ensino-aprendizagem de Lógica de Programação?</h3>
+
+<p>Ao realizar a revisão bibliográfica foram encontradas 64 ferramentas ou softwares que respondem à questão de pesquisa, no período compreendido entre 1981 e 2019.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>ANO</th>
+      <th>FERRAMENTA</th>
+      <th>AUTOR/REFERÊNCIA BIBLIOGRÁFICA</th>
+      <th>DESCRIÇÃO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1981</td>
+      <td>KAREL THE ROBOT</td>
+      <td>Pattis, R. E. Karel - the robot, a gentle introduction to the art of programming. Wiley, London, 1981.</td>
+      <td>Mini linguagem que oferece uma “introdução suave” a Pascal para estudantes universitários fazendo seu curso introdutório de programação. As principais ações de Karel são: move, turnleft, pickbeeper e putbeeper. Um conjunto de 18 predicados permite que Karel verifique o estado de seu micromundo.</td>
+    </tr>
+    <tr>
+      <td>1985</td>
+      <td>LISP-TUTOR</td>
+      <td>REISER, B. J.; ANDERSON, J. R.; FARRELL, R. G. Dynamic Student Modelling in an Intelligent Tutor for LISP Programming. In: IJCAI, p. 814, 1985; Apud Anderson et al., 1990</td>
+      <td>O tutor consiste em um solucionador de problemas que gera passos em direção a uma solução. O tutor reduz as demandas de memória exibindo informações contextuais relevantes e direciona os problemas resolvendo intervindo imediatamente quando um aluno gera resposta parcial inaceitável</td>
+    </tr>
+    <tr>
+      <td>1986</td>
+      <td>PROUST (PROGRAM UNDERSTAND FOR STUDENTS)</td>
+      <td>Johnson, 	W. 	Intention-based Diagnosis of Novice Programming Errors - Research Notes in Artificial Intelligence. Morgan Kaufmann, 1986.</td>
+      <td>É um sistema tutor Inteligente diagnosticador de programas escritos na linguagem de programação Pascal, que analisa programas inteiramente prontos.</td>
+    </tr>
+    <tr>
+      <td>1988</td>
+      <td>BALSA II (BROWN ALGORITM SIMULATOR AND ANIMATOR)</td>
+      <td>BROWN, M. H. Exploring algorithms using Balsa-II. Computer, v. 21, n. 5, p. 14-36, 1988.</td>
+      <td>É o primeiro grande algoritmo de animação. Ambiente para investigar o comportamento dinâmico dos programas, suportando visualizações simultâneas.</td>
+    </tr>
+    <tr>
+      <td>1988</td>
+      <td>VIP</td>
+      <td>MENDES, A. J. e MENDES, T. VIP - A Tool to Visualize programming examples. In Proceedings of Education and Application of Computer Technology, p.131-140, 1988.</td>
+      <td>Ferramenta destinada a apoiar a aprendizagem básica de computação</td>
+    </tr>
+    <tr>
+      <td>1989</td>
+      <td>POLKA</td>
+      <td>DAVISON, A.. Polka: a parlog object oriented language, 1989.</td>
+      <td>É um sistema de animação derivado do Xtango, porém mais poderoso e flexível para construir algoritmos e animações de programas. É de fácil uso e permite que programadores não especialistas em gráficos desenvolvam suas próprias animações. Inclui um front-end interativo chamado Samba, que é um interpretador de animação em qualquer idioma.</td>
+    </tr>
+    <tr>
+      <td>1990</td>
+      <td>GAIGS (GENERALIZED ALGORITHM ILLUSTRATION THROUGH GRAPHICAL SOFTWARE)</td>
+      <td>NAPS, T.L. Algorithm Visualization in Conjuter Science Laboratories. Proceedings of the ACM SIGCSE  <br />Tecnical Symposium, p.105-110, 1990.</td>
+      <td>O sistema suporta diferentes representações simultâneas da mesma estrutura de dados. Foi projetado para suportar um “laboratório de visualização” que constrói a compreensão conceitual através da experimentação sem programação.</td>
+    </tr>
+    <tr>
+      <td>1990</td>
+      <td>TANGO</td>
+      <td>STASKO, J. T. Simplifying algoritm animation with tango, IEEE Workshop on Visual Languages, Skokie, IL, October, 1990.</td>
+      <td>É um modelo de animação com uma semântica precisa baseada no paradigma Path Transition.</td>
+    </tr>
+    <tr>
+      <td>1991</td>
+      <td>ZEUS</td>
+      <td>BROWN, M. H., Zeus: A system for algorithm animation and multiview editing, Proc. IEEE Workshop on Visual Languages, p. 4-9, 1991.</td>
+      <td>O sistema apresenta facilidades de configuração e execução e permitem ao usuário selecionar o algoritmo e as visualizações, e informar os dados de entrada. Funções adicionais gravam registros descrevendo o estado do sistema (snapshots) em um arquivo, e recuperam o estado do sistema a partir de registros guardados anteriormente</td>
+    </tr>
+    <tr>
+      <td>1991</td>
+      <td>TPM (TRANSPARENT PROLOG MACHINE)</td>
+      <td>EISENSTADT, M. et al. Novice Programming Environments. Ablex Publishing, BrightonUK, 1991.</td>
+      <td>O sistema apresenta uma maneira de visualizar a execução de programas Prolog e é voltado para usuários iniciantes (acesso ao livro-texto diagramas e sequências de animação de vídeo) e experientes (acesso a implementação de estação de trabalho gráfica.</td>
+    </tr>
+    <tr>
+      <td>1992</td>
+      <td>XTANGO</td>
+      <td>STASKO, J.T. Animating algorithms 	with XTANGO. SIGACT News, 23, 6771, 1992.</td>
+      <td>É um sistema de animação de algoritmos que utiliza o paradigma de animação de transição. É de fácil uso e permite que programadores não especialistas em gráficos desenvolvam suas próprias animações. Por ser antigo, não recebe mais suporte.</td>
+    </tr>
+    <tr>
+      <td>1992</td>
+      <td>ADAPT (AUTOMATED DEBUGGER FOR AN ADAPTIVE PROLOG TUTOR)</td>
+      <td>GEGG-HARRISON, 	T. 	S. “ADAPT: Automated debugging in an adaptive Prolog tutor”, Proc. 2nd Int. Conf. ITS’92, pp. 343-350, 1992.</td>
+      <td>É um tutor Prolog para detectar erros de programação construído na universidade Duke</td>
+    </tr>
+    <tr>
+      <td>1993</td>
+      <td>CEILIDH</td>
+      <td>BENFORD, S. et al. The Ceilidh Courseware 	System Representation; 	Multimedia Materials; Ukraine; United States, p. 181, 1993.</td>
+      <td>O sistema fornece ferramentas para a administração de cursos de programação, com avaliação automática de 400 exercícios por semana. É utilizado em um projeto nacional do Reino Unido financiado pelo Programa de Tecnologia de Ensino e Aprendizagem da UFC (TLTP).</td>
+    </tr>
+    <tr>
+      <td>1994</td>
+      <td>BACCII</td>
+      <td>CALLONI, B. A.; BAGERT, D. J. Iconic Programming in BACCII vs. Textual Programming: which is a better learning environment? In: ACM SIGCSE Bulletin. ACM, p. 188-192, 1994.</td>
+      <td>O sistema é usado para ensinar a programação sendo as operações mais básicas realizadas usando ícones. Quando o algoritmo estiver completo, o aluno pode gerar código-fonte sintaticamente correto para PASCAL, C, FORTRAN ou BASIC.</td>
+    </tr>
+    <tr>
+      <td>1994</td>
+      <td>DRUIDS (DISPLAY RESOURCE FOR UNDERSTANDING INTERNAL DATA STRUCTURES)</td>
+      <td>WHALE, G. DRUIDS: Tools for understanding data structures and algorithms. In: Proceedings IEEE 1st International Conference on Multi Media Engineering Education. IEEE, p. 403-407, 1994.</td>
+      <td>O sistema estabelece um vínculo entre instrução e experimento, animando algoritmos de livros-texto aplicados a estruturas de dados comuns e permitindo que o aluno exerça seu próprio código de programa. As alterações resultantes no estado do programa podem ser visualizadas dinamicamente em vários níveis de abstração, incluindo o fluxo do controle do programa, o rastreamento de variáveis e o estado da estrutura de dados.</td>
+    </tr>
+    <tr>
+      <td>1994</td>
+      <td>FLAIR  (FLEXIBLE LEARNING WITH AN ARTIFICIAL INTELLIGENCE REPOSITORY)</td>
+      <td>INGARGIOLA, G. et al. A repository that supports teaching and cooperation in the introductory AI course. In: ACM SIGCSE Bulletin. ACM, p. 36-40, 1994.</td>
+      <td>É um repositório de materiais instrucionais para o curso programação, que incluem ambientes de aprendizagem (chamados “módulos”) nos quais os alunos aprendem através da experimentação.</td>
+    </tr>
+    <tr>
+      <td>1994</td>
+      <td>TURTLEGRAPH</td>
+      <td>JEHNG, J.J. et al. TurtleGraph: A Computer Supported Cooperative Learning Environment. 1994; apud Gomes e Mendes, 1998</td>
+      <td>É um ambiente de aprendizado computadorizado projetado e desenvolvido para suportar a solução colaborativa de problemas. Dentro do ambiente de aprendizagem, os alunos são solicitados a escrever programas de computador para gerar figuras geométricas.</td>
+    </tr>
+    <tr>
+      <td>1994</td>
+      <td>TORTOISE</td>
+      <td>BRUSILOVSKY, P. Program visualization as a debugging tool for novices. In: Proc. of INTERCHI’93, Amsterdam, p. 2930, 1994.</td>
+      <td>Mini linguagem usada no ITEM/IP-II, no qual o intérprete visual usa uma janela especial para explicar todos os passos do programa executado.</td>
+    </tr>
+    <tr>
+      <td>1995</td>
+      <td>POLKA-RC</td>
+      <td>STASKO, J. T.; MCCRICKARD, D. S. Real clock time animation support for developing software visualizations. Georgia Institute of Technology, 1995.</td>
+      <td>É um sistema de segunda geração que aproveita o sistema Polka, e adiciona a capacidade de incluir animações em tempo real.</td>
+    </tr>
+    <tr>
+      <td>1996</td>
+      <td>LOOP TUTOR</td>
+      <td>TYERMAN, S. P.; WOODS, P. J.; WARREN, J. R. Loop Tutor and Hypertutor: experiences with adaptive tutoring systems. In:  ANZIIS 96. IEEE, 1996. p. 6063.</td>
+      <td>É um sistema de tutoria inteligente na forma de um livro eletrônico que adapta a ação de ensino, o nível de detalhes e o próximo tópico de acordo com a estimativa do sistema do conhecimento do usuário.</td>
+    </tr>
+    <tr>
+      <td>1997</td>
+      <td>SEE</td>
+      <td>BAECKER, R.; DIGIANO, C.; MARCUS, 	A. 	Software visualization 	for debugging. Communications 	of the ACM, v. 40, n. 4, p. 44-55, 1997.</td>
+      <td>Software aprimora o entendimento de algoritmos e programas de computador a partir animação de algoritmos, apresentação de código fonte tipográfica e auralization interativa.</td>
+    </tr>
+    <tr>
+      <td>1997</td>
+      <td>BACCII++</td>
+      <td>CALLONI, B. A.; BAGERT, D. J.; HAIDUK, H. Paul. Iconic programming proves effective for teaching the first year programming sequence. In: ACM SIGCSE Bulletin. ACM, p. 262266, 1997.</td>
+      <td>É um ambiente icônico desenvolvido na Texas Tech University para ensinar conceitos e linguagens procedurais e orientadas a objetos.</td>
+    </tr>
+    <tr>
+      <td>1997</td>
+      <td>MRUDS (MULTIPLE REPRESENTATI ON FOR UNDERSTANDING DATA STRUCTURES)</td>
+      <td>HANCILES,B. et al. Multiple representation for understanding data structures. Computers &amp; Education, 29, 1-11, 1997; apud Gomes e Mendes, 1998</td>
+      <td>É um sistema instrucional baseado no uso efetivo de múltiplas representações visuais.</td>
+    </tr>
+    <tr>
+      <td>1997</td>
+      <td>C-TUTOR</td>
+      <td>SONG, J. S. et al. An intelligent tutoring system for introductory C language course. Computers &amp; Education, v. 28, n. 2, p. 93-102, 1997.</td>
+      <td>É um sistema de tutoria inteligente para programadores iniciantes, que fornece um analisador de programa e um ambiente de aprendizado.</td>
+    </tr>
+    <tr>
+      <td>1997</td>
+      <td>PMS</td>
+      <td>SLEEMAN, D. A system which allows student to explore algorithms. Proceedings of Intemational Joint Conference on Artificial Intelligence 5, pp. 780-78, 1997.</td>
+      <td>É um sistema de tutores inteligentes onde o usuário é responsável por seu aprendizado, pois escolher as ações a serem tomadas</td>
+    </tr>
+    <tr>
+      <td>1998</td>
+      <td>COACH (COGNITIVE ADAPTIVE COMPUTER HELP)</td>
+      <td>SELKER, E. J. Cognitive adaptive computehelp (coach). ADVANCES 	IN COMPUTERS, v. 47, p. 67-140, 1998. apud Gomes e Mendes, 1998</td>
+      <td>É um sistema que fornece respostas mais efetivas quando ocorrem problemas na interface entre pessoas e computadores. Ele registra e analisa as ações do usuário para adaptar as respostas do computador ao indivíduo, oferecendo informações de ajuda úteis antes mesmo de o usuário solicitar.</td>
+    </tr>
+    <tr>
+      <td>2000</td>
+      <td>ALICE</td>
+      <td>Cooper, 2000 Site Alice.org. Disponível em: http://www.alice.org.</td>
+      <td>Ambiente de programação tridimensional que a permite ao usuário aprender conceitos fundamentais de programação, e a criação de um programa, animações, filmes animados, videogames simples e pequenos jogos a partir de um ambiente gráfico interativo.</td>
+    </tr>
+    <tr>
+      <td>2001</td>
+      <td>SICAS</td>
+      <td>GOMES, A. e MENDES, A. J. SICAS: Interactive system for algorithm development and simulation. In Manuel Ortega y José Bravo (Ed.), Computers and Education in an Interconnected Society, Kluwer Academic Publishers, p.159-166, 2001.</td>
+      <td>Ambiente que favorece o aprendizado e construção de algoritmos. O sistema permite a simulação e animação de algoritmos.</td>
+    </tr>
+    <tr>
+      <td>2001</td>
+      <td>JKAREL ROBOT</td>
+      <td>BUCK, D.; STUCKI, D. J. JKarelRobot: a case study in supporting levels of cognitive development in the computer science curriculum. ACM SIGCSE</td>
+      <td>É uma ferramenta de software para apoiar cursos introdutórios de programação através de um mecanismo para conceber exercícios que sejam cognitivamente apropriados para os níveis de desenvolvimento dos alunos. Independe de plataforma (escrito em Java) e de linguagem, suporta Pascal, Java e ambientes Lisp.</td>
+    </tr>
+    <tr>
+      <td>2001</td>
+      <td>BLUEJ</td>
+      <td>KÖLLING, M. et al. The BlueJ system and its pedagogy. Computer Science Education, v. 13, n. 4, p. 249-268, 2003; apud Henriques e Bublitz, 2013</td>
+      <td>É um ambiente visual de desenvolvimento mais simplificado relativamente aos ambientes destinados ao uso profissional, e pode ser usada uma linguagem de programação convencional.</td>
+    </tr>
+    <tr>
+      <td>2001</td>
+      <td>LEGO MINDSTORMS</td>
+      <td>PATTERSON-MCNEILL, 	H.; BINKERD, C. L. Resources for using lego mindstorms. Journal of Computing Sciences in Colleges,v. 16, n. 3, p. 48-55, 2001.</td>
+      <td>O sistema (micromundos) aborda a teoria e a prática de conteúdos direcionados para a introdução à robótica estimulando a criatividade e a solução de problemas do quotidiano por parte dos alunos.</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td>BIP</td>
+      <td>COSTA, M. Sistemas Tutores Inteligentes. Disponível em: http://www.nce.ufj/ginape/publicac oes/trabalhos/_2002/_2002_raimundo_ose_macario_costa//Sti.htm</td>
+      <td>Ambiente interativo (tutor) orientado para explanação sobre linguagem Basic</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>JELIOT</td>
+      <td>LEVY, R. B.; BEN-ARI, M.; URONEN, P. A. The Jeliot 2000 programan imation system. Computers &amp; Education, v. 40, n. 1, p. 1-15, 2003.</td>
+      <td>É um sistema de animação que exibe uma representação gráfica dinâmica da execução de um programa com o objetivo é ajudar os novatos a compreender conceitos básicos de algoritmos e programação. O código Java fica sujeito a uma pre-compilação 	e 	a 	animação 	é 	gerada automaticamente</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>OOP-ANIM</td>
+      <td>ESTEVES, Micaela; MENDES, António. OOP-Anim, a system to support learning of basic object oriented programming concepts. In: Proceedings of the CompSysTech. 2003.</td>
+      <td>O sistema usa a animação do programa para ajudar os alunos a superar algumas das dificuldades na aprendizagem de conceitos de programação orientada a objetos.</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>TEL C</td>
+      <td>DE LEMOS, M. A.; DE BARROS, L. N. A didactic interface in a programming tutor. In: 11th International 	Conference 	on Artificial Intelligence in Education (AIED2003) Innovations in Teaching Programming Workshop, 2003.</td>
+      <td>Interface de aprendizado de programação com componentes cognitivos disponíveis para que o aluno possa montar um programa de computador em dois níveis: (1) nível de planejamento e (2) nível de implementação.</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>TRAKLA2</td>
+      <td>MALMI, L. et al. Visual algorithm simulation exercise system with automatic assessment: TRAKLA2. Informatics in education, v. 3, n. 2, p. 267, 2004.</td>
+      <td>É um software educacional visual baseado na Web para a resolução de exercícios sobre algoritmos e estruturas de dados. Apresenta uma ferramenta cognitiva para simular algoritmos visualmente e pode apresentar soluções modelo dos exercícios e avaliar automaticamente as soluções dos alunos.</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>JHAVÉ</td>
+      <td>NAPS, T. L. Jhavé: Supporting algorithm visualization. IEEE Computer 	Graphics 	and Applications, v. 25, n. 5, p. 49-55, 2005.</td>
+      <td>É um ambiente de visualização de algoritmo hospedado em Java (JHAVE) que fornece a um contexto de desenho com facilidade de sincronizar as exibições gráficas.</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>LUDWIG</td>
+      <td>SHAFFER, S. C. Ludwig: an online programming tutoring and assessment system. ACM SIGCSE Bulletin, v. 37, n. 2, p. 5660, 2005.</td>
+      <td>Um sistema de tutoria e avaliação de programação on-line que permite ao aluno editar seus programas em um editor de texto controlado, que restringe a capacidade do aluno para utilizar soluções de outras fontes.</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>PROGUIDE</td>
+      <td>AREIAS, C. ProGuide: Sistema de acompanhamento na resolução de problemas básicos de programação. Tese de Mestrado em Engenharia Informática, Universidade de Coimbra, 2007; apud GOMES, 2008</td>
+      <td>Ambiente tutorial multimídia que favorece o aprendizado e construção de algoritmos. O sistema estimula e guia os usuários a alcançar a solução do problema através de um diálogo baseado em texto, com dicas, perguntas e exemplos semelhantes.</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>ALGOLC</td>
+      <td>PETRY, P. G. 2005. Um sistema para o ensino e aprendizagem de algoritmos utilizando um companheiro de aprendizagem colaborativo. Dissertação – UFSC; Apud LOPES et al., 2010</td>
+      <td>É um sistema tutor para o ensino de algoritmos utilizando um companheiro de aprendizagem, com a aplicação da Técnica de Modelagem Baseada em Restrições</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>TUTORICC</td>
+      <td>PÍCCOLO, H. L. et al. Ambiente Interativo e Adaptável para ensino de Programação. In:  Simpósio Brasileiro de Informática na Educação-SBIE. 2010.</td>
+      <td>É um ambiente (tutor) interativo e adaptável desenvolvido e utilizado para o ensino de programação em Pascal na UNB. O conteúdo está dividido em níveis de dificuldade. Há interatividade com o aluno, que constrói seus próprios programas a cada passo do tutorial. São corrigidos imediatamente pelo TutorICC, que recomenda ao aluno o melhor caminho a seguir dentro do conteúdo da disciplina.</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>INCOM</td>
+      <td>LE, N. T.; PINKWART, N. INCOM: A Web-based Homework Coaching System For Logic Programming. In: Proceedings of the IADIS International Conference on Cognition and Exploratory Learning in Digital Age (CELDA), p. 43–50, Rio de Janeiro, Brazil, 2011.</td>
+      <td>É um sistema tutor de coaching de lição de casa baseado na Web para a Programação Lógica (INCOM), que permite aos alunos desenvolver um predicado Prolog de uma forma exploratória, ou seja, os alunos têm permissão para explorar um espaço de solução por si mesmos.</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>THE HUXLEY</td>
+      <td>NASCIMENTO, Mariana Romão do et al. Um estudo sobre a eficácia do ensino à distância de programação para alunos iniciantes. 2011.</td>
+      <td>É uma ferramenta web de suporte no ensino de programação. Auxilia o professor no gerenciamento de exercícios e testes aplicados aos alunos</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>SINBAD</td>
+      <td>Rigo, R.l. SInBAD - Sistema Inteligente Bayesiano de Apoio ao Discente [manuscrito]: orientação no estudo de programação de computadores / Rangel Rigo. - 2012.</td>
+      <td>É uma ferramenta desenvolvida para auxiliar o discente a recuperar conteúdos adequados ao seu nível de conhecimento, por meio de um portal inteligente disponibilizado na internet. A “inteligência” do portal foi implementada utilizando Redes Bayesianas. O sistema proposto identifica os conteúdos necessários à resolução de um determinado problema, realiza em seguida um diagnóstico dos saberes do estudante para então sugerir os assuntos compatíveis com seus saberes. Este gera ainda informações a respeito do desempenho dos discentes quando do uso do portal, podendo estas serem utilizadas pelo docente, com o intuito de nortear suas estratégias de ensino.</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>COMPUTINO</td>
+      <td>FRANÇA, R. S.; SILVA, W. C.; AMARAL, H. J. C. Computino: um jogo destinado à aprendizagem de Números Binários para estudantes da educação básica. In: Anais do  XXI WEI. Maceió, AL–Brasil. 2013.</td>
+      <td>É um jogo educativo desenvolvido para auxiliar o aprendizado de Números Binários para estudantes da educação básica, inspirado no popular jogo Angry Birds. Formado de desafios que estabelecem uma tensão emocional nos jogadores ao mesmo tempo em que consolidam a aprendizagem de conceitos fundamentais da Computação.</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>MIT APPINVENTOR</td>
+      <td>POKRESS, S. C.; VEIGA, J. J. D.. MIT App Inventor: Enabling personal mobile computing. arXiv preprint arXiv:1310.2830, 2013.</td>
+      <td>É uma ferramenta de programação visual de arrastar e soltar para projetar e criar aplicativos móveis totalmente funcionais para Android. A programação intuitiva do App Inventor e os recursos de desenvolvimento incremental permitem que o desenvolvedor se concentre na lógica de programação de um aplicativo, em vez da sintaxe da linguagem de codificação.</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>LIGHT BOT</td>
+      <td>GOUWS, L. A.; BRADSHAW, K.; WENTWORTH, P. Computational thinking in educational activities: an evaluation of the educational game light-bot. In: Proceedings of the 18th ACM conference on Innovation and technology in computer science education. ACM, 2013. p. 10-15.</td>
+      <td>É um jogo educativo com um forte foco em programação, e aplicando o framework fornece insights sobre a utilidade do jogo para reforçar conceitos de ciência da computação.</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>NEWPROG</td>
+      <td>TOREZANI, C. NewProg - um ambiente online para crianças aprenderem programação de computadores. 2014. Dissertação de Mestrado. Universidade Federal do Espírito Santo.</td>
+      <td>Ambiente web com recursos digitais para crianças aprenderem programação. Apresenta como recursos: 1) EANewProg - um Editor de Atividades de Programação que permite ao professor editar atividades a serem apresentadas às crianças e 2) NewProg - um ambiente para crianças visualizarem as atividades, editarem e avaliarem soluções. O NewProg também guarda o histórico das atividades (percurso da aprendizagem) desenvolvidas pela criança, de modo que o professor possa acompanhar a aprendizagem e planejar atividades mais adequadas a cada criança.</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>HALYEN</td>
+      <td>GONZÁLEZ, S. M.; TAMARIZ, A. Integração de uma Metodologia de</td>
+      <td>É uma ferramenta tecnológica de auxílio ao ensino presencial, através da escolha dinâmica da estratégia pedagógica, segundo o perfil, estado emocional e outras características de cada aluno</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>NOBUG’S SNACK BAR</td>
+      <td>VAHLDICK, A. et al. Testando a diversão em um jogo sério para o aprendizado introdutório de programação. 23º WEIWORKHOP SOBRE EDUCAÇÃO EM COMPUTAÇÃO, 2015.</td>
+      <td>O jogo abrange os assuntos de sequenciamento de ações, variáveis e condicionais. A solução é desenvolvida com blocos gráficos, tal como no Scratch. O objetivo é identificar os pontos fracos através do instrumento Egame Flow em seis dimensões: concentração, clareza dos objetivos, feedback, desafios, autonomia e imersão.</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Lord of Code (LoC)</td>
+      <td>CAFÉ, M. et al. Lord of Code: Uma Ferramenta de Apoio ao Ensino da Programação. In: Simpósio Brasileiro de Informática na Educação-SBIE. 2016. p. 1316.</td>
+      <td>É um jogo que visa auxiliar na aprendizagem de programação por meio de um jogo que estimula a interpretação e resolução de problemas em códigos escritos em Java.</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>DEFENSE OF THE ANCIENTS 2</td>
+      <td>DRACHEN, A. et al. Skill-based differences in spatio-temporal team behavior in defence of the ancients 2. arXiv preprint arXiv:1603.07738, 2016.</td>
+      <td>É um jogo em que as equipes de jogadores lutam umas contra as outras em ambientes de arena, e a jogabilidade é focada em combate tático.</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>TRI-LOGIC</td>
+      <td>BARBOSA, B. et al. Tri-logic proposta lúdica gamificada para o ensino e aprendizagem da lógica de programação com o uso da mineração de dados como ferramenta de auxílio ao professor. In: SBIE. 2017.</td>
+      <td>É um jogo que propõe um ambiente de apoio ao ensino desta disciplina, aliando aos jogos eletrônicos o monitoramento online de suas etapas através do uso de técnicas de mineração de dados educacionais.</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>PLAY CODE DOG</td>
+      <td>SANTOS, C. P.; DA SILVA, J. L.; GENZ, 	C. 	Lógica 	de Programação: Iniciação Lúdica com Play Code Dog. In: Anais do Workshop 	de 	Informática 	na Escola. 2017. p. 108.</td>
+      <td>É um jogo voltado para o público infantil e despontado como uma possibilidade para auxiliar o ensino de lógica de programação para crianças.</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>ADA</td>
+      <td>DE 	AMORIM 	COSTA, 	T.; OLIVEIRA, F. C. S. Um Ambiente Gamificado de Apoio ao Ensino de Lógica de Programação e Estímulo do Pensamento Computacional. Revista Brasileira de Iniciação Científica, v. 6, n. 1, p. 139-156, 2018.</td>
+      <td>É um ambiente gamificado fundamentado no auxílio ao ensino de lógica de programação, e na promoção de habilidades do Pensamento Computacional. A proposta é direcionada, para alunos de um projeto que oferece cursos ligados à lógica e programação. O ambiente é dotado de sistemas de níveis, pontuação e ranking.</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>URI ONLINE JUDGE BLOCKS</td>
+      <td>DAGOSTINI, J. et al. URI Online Judge Blocks: Construindo Soluções em uma Plataforma Online de Programação. In: SBIE. 2018. p. 168.</td>
+      <td>É uma ferramenta que integra a API Blockly do Google à plataforma URI Online Judge e traduz a lógica abstrata do algoritmo em código.</td>
+    </tr>
+    <tr>
+      <td>2019</td>
+      <td>SOLOLEARN</td>
+      <td>BERSSANETTE, J. H. et al.Avaliação do uso do APP Sololearn como ferramenta de apoio a aprendizagem dos fundamentos de programação de computadores. REVISTA INTERSABERES, v. 13, n. 30, p.504-524, 2019.</td>
+      <td>Foi avaliado o contexto pedagógico por meio da proposta de abordagem centrada em especialistas e a experiência do usuário, tendo como base uma adaptação do instrumento de avaliação de jogos para uso em educação. Desse modo, observou-se que o aplicativo na visão dos especialistas está alinhado com os conteúdos e objetivos de aprendizagem das disciplinas que tratam dos fundamentos de programação de computadores, apresentando os conteúdos de forma correta com recursos de avaliação.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>É possível observar no gráfico que sempre há o desenvolvimento de novas ferramentas, sendo constante ao longo dos anos. Esse fato reforça a preocupação dos pesquisadores, e a necessidade de endereçar os problemas relatados anteriormente para o ensino de Lógica de Programação.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-01-26">January 26, 2025</time></p>
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/objetos/exemplosintro/" class="pagination--pager" title="Introdução Exemplos">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><div class="search-searchbar"></div>
+  <div class="search-hits"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/dev-sireedu" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/mmistakes" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="http://localhost:4000">SIREEDU</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+// Including InstantSearch.js library and styling
+const loadSearch = function() {
+  const loadCSS = function(src) {
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = src;
+    link.media = 'all';
+    document.head.appendChild(link);
+  };
+
+  var script = document.createElement('script');
+  script.setAttribute("type", "text/javascript");
+  script.setAttribute("src", "https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js");
+  script.addEventListener("load", function() {
+    // Instantiating InstantSearch.js with Algolia credentials
+    const search = instantsearch({
+      appId: 'QB6HVGBSBA',
+      apiKey: '9d5014e5bbc77372547bce778dfa5663',
+      indexName: 'minimal_mistakes',
+      searchParameters: {
+        restrictSearchableAttributes: ['title', 'content']
+      }
+    });
+
+    const hitTemplate = function(hit) {
+      const url = hit.url;
+      const hightlight = hit._highlightResult;
+      const title = hightlight.title && hightlight.title.value  || "";
+      const content = hightlight.html && hightlight.html.value  || "";
+
+      return `
+        <div class="list__item">
+          <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+            <h2 class="archive__item-title" itemprop="headline"><a href="${url}">${title}</a></h2>
+            <div class="archive__item-excerpt" itemprop="description">${content}</div>
+          </article>
+        </div>
+      `;
+    }
+
+    // Adding searchbar and results widgets
+    search.addWidget(
+      instantsearch.widgets.searchBox({
+        container: '.search-searchbar',
+        poweredBy: true,
+        placeholder: 'Enter your search term...'
+      })
+    );
+    search.addWidget(
+      instantsearch.widgets.hits({
+        container: '.search-hits',
+        templates: {
+          item: hitTemplate,
+          empty: 'No results',
+        }
+      })
+    );
+
+    if (!search.started) {
+      search.start();
+    }
+  });
+  document.body.appendChild(script);
+
+  loadCSS("https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css");
+  loadCSS("https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css");
+};
+
+// Starting the search only when toggle is clicked
+$(document).ready(function() {
+  var scriptLoaded = false;
+
+  $(".search__toggle").on("click", function() {
+    if (!scriptLoaded) {
+      loadSearch();
+      scriptLoaded = true;
+    }
+  });
+});
+</script>
+
+
+
+
+
+
+
+  </body>
+</html>

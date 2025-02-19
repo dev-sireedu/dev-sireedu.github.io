@@ -1,0 +1,182 @@
+
+# main links
+main:
+  - title: "Sobre o projeto"
+    url: /docs/motivacao/
+  - title: "Desenvolvimento"
+    url: /dev/resume/
+  - title: "Telas"
+    url: /telas/login/
+  - title: "Objetos Educacionais"
+    url: /objetos/introducao/
+  - title: "Resultados"
+    url: /resultados/overview/
+  - title: "Referências Bibliográficas"
+    url: /referencias/lista/
+
+# documentation links
+docs:
+  - title: Sobre o projeto
+    children:
+      - title: "Motivação"
+        url: /docs/motivacao/
+      - title: "Objetivos"
+        url: /docs/objetivos/
+      - title: "Nossos diferenciais"
+        url: /docs/diferenciais/
+      - title: "Para quem se destina?"
+        url: /docs/publico/
+      - title: "Funcionalidades"
+        url: /docs/funcionalidades/
+      - title: "Arquitetura"
+        url: /docs/arquitetura/
+      - title: "Links"
+        url: /docs/links/
+      - title: "Tecnologias Utilizadas"
+        url: /docs/tecnologias/
+  - title: Diagramas
+    children:
+      - title: "Casos de Uso"
+        url: /docs/casodeuso/
+
+# dev links
+dev:
+  - title: Desenvolvimento do Sistema
+    children:
+      - title: "Introdução"
+        url: /dev/resume/
+      - title: "Estrutura do Código"
+        url: /dev/estrutura/
+      - title: "Modularidade"
+        url: /dev/modularidade/
+  - title: Interface do Usuário
+    children:
+      - title: "Landing Page"
+        url: /dev/landing/
+      - title: "Login"
+        url: /dev/login/
+      - title: "Esqueceu a senha"
+        url: /dev/esqueceu/
+      - title: "Criar nova senha"
+        url: /dev/novasenha/
+      - title: "Cadastro de aluno"
+        url: /dev/cadastro/
+      - title: "Boas-vindas"
+        url: /dev/boasvindas/
+      - title: "Tela do aluno"
+        url: /dev/aluno/
+      - title: "Questionário"
+        url: /dev/questionario/
+      - title: "Resultados"
+        url: /dev/resultados/
+      - title: "Tela do professor"
+        url: /dev/professor/
+      - title: "Relatório Sintético"
+        url: /dev/sintetico/
+      - title: "Relatório Analítico"
+        url: /dev/analitico/
+      - title: "Recomendações"
+        url: /dev/recomendacoes/
+  - title: Banco de Dados
+    children:
+      - title: "Diagrama Relacional"
+        url: /dev/diagrama/    
+# telas links
+telas:
+  - title: Telas do Sistema
+    children:
+      - title: "Login"
+        url: /telas/login/
+      - title: "Registro de Aluno"
+        url: /telas/cadastro/
+      - title: "Esqueci Senha"
+        url: /telas/esqueceu/
+      - title: "Escolha de Perfil para o Professor"
+        url: /telas/perfil/
+      - title: "Testes Disponíveis para Responder"
+        url: /telas/testes/
+      - title: "Termo de Consentimento Livre e Esclarecido"
+        url: /telas/consentimento/
+      - title: "Teste de Estilos de Aprendizagem"
+        url: /telas/estilos/
+      - title: "Teste de Inteligências Múltiplas"
+        url: /telas/im/
+      - title: "Relatórios dos Testes de cada Turma para o Professor"
+        url: /telas/rtestes/
+      - title: "Relatório Sintético de Estilo de Aprendizagem da Turma"
+        url: /telas/rintetico/
+      - title: "Relatório Analítico de Estilo de Aprendizagem da Turma"
+        url: /telas/ranalitico/
+      - title: "Recomendações e Material de Apoio"
+        url: /telas/recomendacao/
+      - title: "Relatório Sintético de Inteligências Múltiplas da Turma"
+        url: /telas/rtsintetico/
+      - title: "Relatório Analítico de Inteligências Múltiplas da Turma"
+        url: /telas/rtanalitico/
+      - title: "Tela Principal do Sistema"
+        url: /telas/principal/
+      - title: "Registro do Aluno no Sistema"
+        url: /telas/registro/
+      - title: "Confirmação de Email do Aluno"
+        url: /telas/confirmacao/
+      - title: "Verificação de Email do Aluno no Sistema"
+        url: /telas/vemail/
+      - title: "Verificação com Link Expirado do Aluno"
+        url: /telas/vlink/
+      - title: "Acesso do Usuário"
+        url: /telas/usuario/
+      - title: "Acesso aos Testes do Aluno"
+        url: /telas/talunos/
+      - title: "Termo de Consentimento Livre e Esclarecido do Aluno"
+        url: /telas/aconsetimento/
+      - title: "Acesso ao Teste de Estilo de Aprendizagem do Aluno"
+        url: /telas/testilo/
+      - title: "Acesso a Visualização Parcial dos Resultados do Aluno"
+        url: /telas/vparcial/
+      - title: "Acesso aos Resultado do Teste de Estilos de Aprendizagem do Aluno"
+        url: /telas/rteste/
+      - title: "Acesso ao Teste de Inteligências Múltiplas do Aluno"
+        url: /telas/tim/
+      - title: "Acesso aos Resultados dos Testes e da Recomendação Personalizada do Aluno"
+        url: /telas/rtesterecom/
+      - title: "Acesso aos Resultados do Teste de Inteligências Múltiplas do Aluno"
+        url: /telas/rtesteim/
+      - title: "Acesso a Recomendação Personalizada do Aluno"
+        url: /telas/person/
+      - title: "Acesso aos Objetos Educacionais com os Recursos Favoritar e Curtir do Aluno"
+        url: /telas/objedu/
+      - title: "Acesso aos Relatórios das Turmas do Professor"
+        url: /telas/relatorio/
+      - title: "Acesso aos Recursos de Recomendações Personalizadas de Objetos Educacionais e Metodologias de Ensino do Professor"
+        url: /telas/rppro/
+      - title: "Acesso aos Recursos de Recomendações Personalizadas de Objetos Educacionais para Turma"
+        url: /telas/rpoe/
+      - title: "Acesso aos Recursos de Recomendações Personalizadas de Metodologias de Ensino para Turma"
+        url: /telas/rpme/
+      - title: "Acesso as Informações de Metodologia de Ensino para a Turma"
+        url: /telas/infome/
+objetos:
+  - title: Objetos Educacionais
+    children:
+      - title: "Introdução"
+        url: /objetos/introducao/
+      - title: "Inteligências Múltiplas"
+        url: /objetos/im/
+      - title: "Estilos de Aprendizagem"
+        url: /objetos/estilos/
+  - title: Exemplos de Utilização
+    children:
+      - title: "Introdução"
+        url: /objetos/exemplosintro/
+      - title: "Lógica de Programação"
+        url: /objetos/lp/
+resultados:
+  - title: Resultados
+    children:
+      - title: "Visão Geral"
+        url: /resultados/overview/
+referenciais:
+  - title: Referências Bibliográficas
+    children:
+      - title: "Lista de Referências"
+        url: /referencias/lista/
