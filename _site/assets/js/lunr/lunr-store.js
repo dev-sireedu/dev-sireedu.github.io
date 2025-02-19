@@ -150,7 +150,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Casos de Uso",
-        "excerpt":"Acesso ao Sistema     Responder os Questionários     Visualizar os Resultados dos Questionários     Visualizar os Objetos Educacionais     Visualizar os Resultados das Turmas Cadastradas    ","categories": [],
+        "excerpt":"Acesso ao Sistema     Responder os Questionários     Visualizar os Resultados dos Questionários     Visualizar as Recomendações de Objetos Educacionais     Visualizar os Resultados das Turmas Cadastradas     Caso queira realizar alguma alteração, baixe o arquivo draw.io desses diagramas aqui.  ","categories": [],
         "tags": [],
         "url": "/docs/casodeuso/",
         "teaser": null

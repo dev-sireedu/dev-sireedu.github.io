@@ -22,3 +22,6 @@ toc: true
 
 ### Visualizar os Resultados das Turmas Cadastradas
 ![turma](/assets/images/professor.png)
+
+
+Caso queira realizar alguma alteração, baixe o arquivo draw.io desses diagramas [aqui](/assets/anexos/DiagramasCasoUso.drawio).
